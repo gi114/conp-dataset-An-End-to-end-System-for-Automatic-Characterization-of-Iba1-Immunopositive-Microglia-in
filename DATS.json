@@ -1,0 +1,125 @@
+{
+    "identifier": {
+        "identifier": "https://www.frdr.ca/repo/handle/doi:10.20383/101.0120",
+        "identifierSource": "DOI"
+    },
+    "title": "An End-to-end System for Automatic Characterization of Iba1 Immunopositive Microglia in Whole Slide Imaging: Data",
+    "creators": [
+        {
+            "name": "Kyriazis, Alexander D"
+        },
+        {
+            "name": "Noroozizadeh, Shahriar"
+        },
+        {
+            "name": "Refaee, Amir"
+        },
+        {
+            "name": "Choi, Woongcheol"
+        },
+        {
+            "name": "Chu, Lap-Tak"
+        },
+        {
+            "name": "Bashir, Asma"
+        },
+        {
+            "name": "Cheng, Wai Hang"
+        },
+        {
+            "name": "Zhao, Rachel"
+        },
+        {
+            "name": "Namjoshi, Dhananjay R"
+        },
+        {
+            "name": "Salcudean, Septimiu E"
+        },
+        {
+            "name": "Wellington, Cheryl L"
+        },
+        {
+            "name": "Nir, Guy"
+        }
+    ],
+    "description": "This mice brain data is used in the training and testing of a fully automated software pipeline for the characterization of Immunopositive Microglia in Whole Slide Imaging for Traumatic Brain Injury. The pipeline consists of two major components: White Matter Segmentation and Microglial Analysis in Count and Morphology, both of which use supervised machine learning algorithms that were trained using the respective folders. The pipeline was also tested as a whole for its performance using the brain sections included. This data was acquired by Dr. Wellington's group at the Centre for Brain Health, University of British Columbia. \r\n\r\nFor a complete description of each folder and its usage please refer to the readme document included.",
+    "version": "None",
+    "licenses": [
+        {
+            "name": [
+                "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+                "https://creativecommons.org/licenses/by/4.0/"
+            ]
+        }
+    ],
+    "keywords": [
+        {
+            "value": "Computer-aided detection and diagnosis"
+        },
+        {
+            "value": "Whole slide imaging"
+        },
+        {
+            "value": "Digital pathology"
+        },
+        {
+            "value": "Classification"
+        },
+        {
+            "value": "Traumatic brain injury"
+        }
+    ],
+    "distributions": [
+        {
+            "formats": [
+                "TIF",
+                "MAT",
+                "5J_B6-4806-D7-IBA1",
+                "XML",
+                "5J_B6-1700-C8",
+                "5J_B6-1701-B4-IBA-1",
+                "5J_B6-1701-B8-IBA-1",
+                "5J_B6-66990-IBA-1",
+                "7J_B6-1701-B5-IBA-1",
+                "7J_B6-1865-B5-IBA-1",
+                "7J_B6-66991-IBA-1",
+                "5J_B6-4809-D7-IBA1",
+                "5J-WT_DN",
+                "5J_B6-1701-A4-IBA-1",
+                "5J_B6-1865-C5-IBA-1",
+                "5J_B6-2313-B4-IBA-1",
+                "7J_B6-1865-C4-IBA-1",
+                "7J_B6-2313-B2-IBA-1",
+                "7J_B6-2313-D4-IBA-1",
+                "5J_B6-70271-IBA1",
+                "5J_B6-70277-IBA1",
+                "7J_B6-4806-D9-IBA1",
+                "SVS",
+                "TXT"
+            ],
+            "size": "14892864859",
+            "access": {
+                "authorizations": [
+                    {
+                        "value": "public"
+                    }
+                ]
+            }
+        }
+    ],
+    "extraProperties": [
+        {
+            "category": "files",
+            "values": [
+                {
+                    "value": "6219"
+                }
+            ]
+        }
+    ],
+    "types": [
+        {
+            "value": "unknown"
+        }
+    ]
+}
