@@ -4,3 +4,4 @@
 DATS.json annex.largefiles=nothing
 README.md annex.largefiles=nothing
 .conp-frdr-crawler.json annex.largefiles=nothing
+config.sh annex.largefiles=nothing
