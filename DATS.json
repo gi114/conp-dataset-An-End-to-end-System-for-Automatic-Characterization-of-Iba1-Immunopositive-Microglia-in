@@ -97,8 +97,9 @@
                 "SVS",
                 "TXT"
             ],
-            "size": "14892864859",
+            "size": 14892864859,
             "access": {
+		"landingPage": "https://www.frdr.ca/repo/handle/doi:10.20383/101.0120",
                 "authorizations": [
                     {
                         "value": "public"
