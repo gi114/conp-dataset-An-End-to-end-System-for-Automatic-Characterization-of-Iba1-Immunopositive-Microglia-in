@@ -1,5 +1,17 @@
 pip install update git-annex-remote-globus 
 
+python - << EOF
+
+# check if the globus token is in the keyring before launching the config file. If not, add the credentials
+token = keyring.get_password("globus-remote", "auth-tokens")
+
+if token is None:
+    # get environment variable as token
+    globus_token = os.environ['GLOBUS_TOKEN']
+    # obtains globus token which is used as a password
+    keyring.set_password("globus-remote", "auth-tokens", globus_token)
+
+EOF
 
 git-annex-remote-globus setup
 git annex enableremote globus
